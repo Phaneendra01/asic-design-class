@@ -19,3 +19,10 @@ Task: To watch C based and RISCV based lab videos and execute the task of compil
 
       ![Screenshot 2024-07-17 140753](https://github.com/user-attachments/assets/dfdd8025-6569-48b2-949d-9d6cd9c2b63e)
              
+2. Compiling C code with RISCV gcc
+
+    step1 : Compile using RISCV gcc compiler as shown below
+
+                   riscv64-unknown-elf-gcc -o1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
+   
+   
