@@ -24,5 +24,11 @@ Task: To watch C based and RISCV based lab videos and execute the task of compil
     step1 : Compile using RISCV gcc compiler as shown below
 
                    riscv64-unknown-elf-gcc -o1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
-   
+
+      ![Screenshot 2024-07-17 092749](https://github.com/user-attachments/assets/2a82d4a0-3ba4-4995-b2a1-679dd62aa9ed)
+
+    step2 : To See the assembly code of the C program, run the following command.
+
+                   riscv64-unknown-elf-objdump -d sum1ton.o
+                  
    
