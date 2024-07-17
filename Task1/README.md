@@ -31,4 +31,4 @@ Task: To watch C based and RISCV based lab videos and execute the task of compil
 
                    riscv64-unknown-elf-objdump -d sum1ton.o
                   
-   
+      ![Screenshot 2024-07-17 125007](https://github.com/user-attachments/assets/e33886d2-58e8-4b29-9731-262935cf8b24)
