@@ -5,8 +5,14 @@ Task: To watch C based and RISCV based lab videos and execute the task of compil
 
     step1 : create a C file in the home directory
 
-                  command: leafpad sum1ton.c
+                  leafpad sum1ton.c
 
       and write the C code
    
-   ![Screenshot 2024-07-17 090905](https://github.com/user-attachments/assets/437a9fcd-ee0b-4cd1-b023-ec7d79d3b77a)
+      ![Screenshot 2024-07-17 090905](https://github.com/user-attachments/assets/437a9fcd-ee0b-4cd1-b023-ec7d79d3b77a)
+
+   step2 : compile the C code using gcc command as shown below
+
+                  gcc sum1ton.c  # for compiling sum1ton.c
+                  ./a.out # to run the executable file created
+             
