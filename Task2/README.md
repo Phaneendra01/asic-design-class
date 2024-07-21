@@ -32,6 +32,8 @@ for that open the objdump of the output using the below command
 
      riscv64-unknown-elf-objdump -d sum1ton.o | less
 
+![2](https://github.com/user-attachments/assets/e664d32a-a2ad-45a8-af38-5fab3fe6b2ab)
+
 now inorder to debug, we need to open a debuger, to do that we are going to use spike
 
      spike -d pk sum1ton.o
