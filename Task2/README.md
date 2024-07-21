@@ -90,5 +90,7 @@ now we can observe the value of the a2 register has been modified
 
 ![3](https://github.com/user-attachments/assets/1f27a2a9-a906-4c03-8781-bcdeb4f3e827)
 
+you can see the calculation for the stack pointer from the below image
+
 
 
