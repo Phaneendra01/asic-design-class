@@ -24,6 +24,8 @@ run the following code
      spike pk sum1ton.o
 
 if we get the same output, it is verified that simulations are working as per expected
+
+![1](https://github.com/user-attachments/assets/f41f06b6-0790-428d-88ea-7ce2b6ba6937)
     
 ## step3: now debug the output 
 for that open the objdump of the output using the below command
