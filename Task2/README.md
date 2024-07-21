@@ -7,6 +7,11 @@
 
 
 
+
+
+
+
+
 ## step1: compile the code using gcc and get output using ./a.out
 
 run the following code
@@ -48,43 +53,43 @@ now see the objdump to see what is the next instruction, in my case
 
 1. first command is lui a0, 0x21 which changes a0 register value
 
--> so first check the value of reg a0 using the below command
+- so first check the value of reg a0 using the below command
      
-     reg 0 a0
+      reg 0 a0
 
-inorder to run the instruction press Enter
+- inorder to run the instruction press Enter
 
-check the value of regiester again
+- check the value of regiester again
 
-     reg 0 a0
+      reg 0 a0
 
 now we can observe the value of the a0 register has been modified
 
 2. second command is addi sp,sp,-16 which changes sp value
 
--> so first check the value of stack pointer using the below command
+- so first check the value of stack pointer using the below command
      
-     reg 0 sp
+      reg 0 sp
 
-inorder to run the instruction press Enter
+- inorder to run the instruction press Enter
 
-check the value of sp regiester again
+- check the value of sp regiester again
 
-     reg 0 sp
+      reg 0 sp
 
 now we can observe the value of the sp register has been modified
 
 3. third command is li a2,55 which changes a2 register value
 
--> so first check the value of reg a2 using the below command
+- so first check the value of reg a2 using the below command
      
-     reg 0 a2
+      reg 0 a2
 
-inorder to run the next instruction press Enter
+- inorder to run the next instruction press Enter
 
-check the value of regiester again
+- check the value of regiester again
 
-     reg 0 a2
+      reg 0 a2
 
 now we can observe the value of the a2 register has been modified
 
@@ -92,9 +97,9 @@ now we can observe the value of the a2 register has been modified
 
 you can see the calculation for the stack pointer from the below image
 
-initial value of stack pointer: 3ffffffb50
+- initial value of stack pointer: 3ffffffb50
 
-subtracted by: 16 in decimal which is 10 in hexadecimal
+- subtracted by: 16 in decimal which is 10 in hexadecimal
 
 ![6](https://github.com/user-attachments/assets/6d7c732c-95be-4f3c-a26f-05e29e206a17)
 
