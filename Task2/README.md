@@ -93,6 +93,7 @@ now we can observe the value of the a2 register has been modified
 you can see the calculation for the stack pointer from the below image
 
 initial value of stack pointer: 3ffffffb50
+
 subtracted by: 16 in decimal which is 10 in hexadecimal
 
 ![6](https://github.com/user-attachments/assets/6d7c732c-95be-4f3c-a26f-05e29e206a17)
