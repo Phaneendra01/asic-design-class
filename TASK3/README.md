@@ -366,8 +366,6 @@ The comparison between standard RISC-V ISA encoding and the hardcoded ISA used i
 
 ---
 
-📌 **Note:** The instruction encodings used in this simulation differ from the standard RISC-V ISA. This is due to custom implementation choices in the reference design. Always refer to the official RISC-V specifications for standard encodings.
-
 <h2 align="center">👨‍🎓 Basic Details</h2>
 
 <p align="center">
