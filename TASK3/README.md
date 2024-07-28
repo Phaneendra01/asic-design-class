@@ -260,7 +260,7 @@ RISC-V features six powerful instruction formats:
 - 32-bit instruction: `0000000 00010 01011 001 01111 0110011`
 </details>
 
-<u>### RISC-V Functional Simulation Experiment</u>
+<p><u>### RISC-V Functional Simulation Experiment</u></p>
 
 This repository contains the results of a functional simulation experiment using RISC-V Core Verilog Netlist and Testbench. We observed waveforms for various RISC-V instructions.
 
