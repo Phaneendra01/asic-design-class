@@ -111,14 +111,15 @@ RISC-V features six powerful instruction formats:
 </details>
 
 <details>
-<summary><b>📝 ADDI r12, r4, 5</b></summary>
+<summary><b>📝 SUB r5, r5, r4</b></summary>
 
-- Type: I-type 🟠
-- Opcode: `0010011`
-- rd: `01100`
+- Type: R-type 🟠
+- Opcode: `0110011`
+- rd: `00101`
 - func3: `000`
-- rs1: `00100`
-- imm[11:0]: `000000000101`
+- rs1: `00101`
+- rs2: `00100`
+- func7: `0100000`
 
 32-bit instruction:
 ```
