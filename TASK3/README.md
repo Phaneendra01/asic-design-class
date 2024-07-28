@@ -317,24 +317,44 @@ We analyzed the following RISC-V instructions:
 
 ## 📊 Simulation Results
 
-Here are the waveform snapshots for some of the instructions:
+Here are the waveform snapshots of the instructions:
 
-### ADD Instruction
-![ADD Waveform](https://example.com/add_waveform.png)
+### ADD r5, r4, r5
+![1](https://github.com/user-attachments/assets/fb693286-4e82-4075-8192-9cc30d06e2e7)
 
-### SUB Instruction
-![SUB Waveform](https://example.com/sub_waveform.png)
+### SUB r5, r5, r4
+![2](https://github.com/user-attachments/assets/92ea514f-c960-4df7-98a8-790662b6dade)
 
-### AND Instruction
-![AND Waveform](https://example.com/and_waveform.png)
+### AND r4, r5, r5
+![3](https://github.com/user-attachments/assets/f63b0de8-cdc6-4b2c-a470-905187271f18)
 
-### OR Instruction
-![OR Waveform](https://example.com/or_waveform.png)
+### OR r8, r4, r5
+![4](https://github.com/user-attachments/assets/cabfc63f-737c-4240-ae25-56906a5e2cd7)
 
-### XOR Instruction
-![XOR Waveform](https://example.com/xor_waveform.png)
+### XOR r8, r5, r4
+![5](https://github.com/user-attachments/assets/c3530335-55eb-4773-9a4d-355cf826be52)
 
-... (Add more waveform images for other instructions)
+### SLT r10, r2, r4
+![6](https://github.com/user-attachments/assets/33fc3b68-058b-4913-8020-69bcfded3051)
+
+### ADDI r12, r3, 5
+![7](https://github.com/user-attachments/assets/7d557af8-f2aa-4533-8524-3c8d123c8537)
+
+### SW r3, r1, 4
+![8](https://github.com/user-attachments/assets/3bc7d7f1-5130-4e97-97c3-f4d207a0a28c)
+
+### SRL r16, r11, r2
+![9](https://github.com/user-attachments/assets/2fdef25d-706e-4bbb-a5a9-67238a243fc9)
+
+### BNE r0, r1, 20
+![10](https://github.com/user-attachments/assets/75f0f007-3f2d-4db1-b942-5441bb2f4f75)
+
+### BEQ r0, r0, 15
+![11](https://github.com/user-attachments/assets/d1723cc8-6c09-443c-b5fa-63faa085800a)
+
+### LW r13, r11, 2
+![12](https://github.com/user-attachments/assets/f271d023-2e7f-4c86-9b81-aa50d34835d8)
+
 
 ## 🔍 Instruction Encoding Comparison
 
