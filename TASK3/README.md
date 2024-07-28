@@ -91,7 +91,7 @@ RISC-V features six powerful instruction formats:
 - 🔹 Fields: opcode (7 bits), rd (5 bits), imm[20|10:1|11|19:12] (20 bits)
 </details>
 
-### 🧪 Instruction Analysis Examples
+### 🧪 Instruction Analysis
 
 <details>
 <summary><b>📝 ADD r5, r4, r5</b></summary>
