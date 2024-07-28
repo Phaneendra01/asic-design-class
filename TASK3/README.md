@@ -260,6 +260,10 @@ RISC-V features six powerful instruction formats:
 - 32-bit instruction: `0000000 00010 01011 001 01111 0110011`
 </details>
 
+<p style="font-size: 20px; text-align: center;">
+  👨‍🎓 Basic Details
+</p>
+
 <p align="center">
   👨‍🎓 Basic Details
 </p>
