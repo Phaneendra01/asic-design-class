@@ -262,6 +262,8 @@ RISC-V features six powerful instruction formats:
 
 <h1 style="font-size: 36px; text-align: center;">👨‍🎓 Basic Details</h1>
 
+<h1 style="font-size: 36px; text-align: center; width: 100%;">👨‍🎓 Basic Details</h1>
+
 <p align="center">
   <h1>
   👨‍🎓 Basic Details
