@@ -261,10 +261,6 @@ RISC-V features six powerful instruction formats:
 </details>
 
 <p align="center">
-  Made by Phaneendra M V
-</p>
-
-<p align="center">
   👨‍🎓 Basic Details
 </p>
 
