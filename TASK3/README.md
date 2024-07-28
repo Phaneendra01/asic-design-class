@@ -262,11 +262,28 @@ RISC-V features six powerful instruction formats:
 
 <p align="center">
   Made by Phaneendra M V
+</p>
 
+<p align="center">
   👨‍🎓 Basic Details
+</p>
+
+<p align="center">
   Name: Phaneendra M V
+</p>
+
+<p align="center">
   College: IIIT Banglore
+</p>
+
+<p align="center">
   Email: Phaneendra.MV@iiitb.ac.in
+</p>
+
+<p align="center">
   GitHub: (https://github.com/Phaneendra01/asic-design-class.git)
-  LinkedIn: www.linkedin.com/in/phaneendra-mv
+</p>
+
+<p align="center">
+  LinkedIn: (www.linkedin.com/in/phaneendra-mv)
 </p>
