@@ -6,11 +6,11 @@ Welcome to the VSDSquadron Research Internship program, focusing on RISC-V archi
 
 ## 👨‍🎓 Basic Details
 
-**Name:** Maaz Mahmood Siddique  
-**College:** KIET Group of Institutions  
-**Email:** maazms999@gmail.com  
-**GitHub:** [maazm007](https://github.com/maazm007?tab=repositories)  
-**LinkedIn:** [maazm-ece-vlsi](https://www.linkedin.com/in/maazms-ece-vlsi/)
+**Name:** Phaneendra M V  
+**College:** IIIT Banglore  
+**Email:** Phaneendra.MV@iiitb.ac.in  
+**GitHub:** (https://github.com/Phaneendra01/asic-design-class.git)
+**LinkedIn:** (www.linkedin.com/in/phaneendra-mv)
 
 ## 📚 Tasks Overview
 
