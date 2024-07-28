@@ -1,6 +1,6 @@
 # 🖥️ RISC-V Instruction Analysis
 
-## 🎯 Task 2: Instruction Type Identification and 32-Bit Code Generation
+## 🎯 Task 3: Instruction Type Identification and 32-Bit Code Generation
 
 Dive into the world of RISC-V as we explore instruction types and generate 32-bit instruction codes!
 
