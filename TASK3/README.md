@@ -123,7 +123,7 @@ RISC-V features six powerful instruction formats:
 
 32-bit instruction:
 ```
-000000000101_00100_000_01100_0010011
+0100000 00100 00101 000 00101 0110011
 ```
 </details>
 
