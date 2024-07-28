@@ -261,7 +261,7 @@ RISC-V features six powerful instruction formats:
 </details>
 
 <p align="center">
-### 👨‍🎓 Basic Details
+  👨‍🎓 Basic Details
 </p>
 
 <p align="center">
