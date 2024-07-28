@@ -317,6 +317,10 @@ We analyzed the following RISC-V instructions:
 
 ## 📊 Simulation Results
 
+steps:
+
+![abc](https://github.com/user-attachments/assets/98787c61-c64e-4de2-80e3-151340ff9f30)
+
 Here are the waveform snapshots of the instructions:
 
 ### ADD r5, r4, r5
