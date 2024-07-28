@@ -144,15 +144,172 @@ RISC-V features six powerful instruction formats:
 ```
 </details>
 
-### ⚠️ Note on Instruction Encoding
+<details>
+<summary><b>📝 ADD r5, r4, r5</b></summary>
 
-The 32-bit instructions generated here follow standard RISC-V ISA specifications. However, some implementations may use different encoding schemes. Always refer to your specific processor's documentation for accurate instruction encoding.
+- Type: R-type 🔵
+- Opcode: `0110011`
+- funct7: `0000000`
+- rs2: `00101`
+- rs1: `00100`
+- funct3: `000`
+- rd: `00101`
+- 32-bit instruction: `0000000 00101 00100 000 00101 0110011`
+</details>
 
----
+<details>
+<summary><b>📝 SUB r5, r5, r4</b></summary>
 
-<p align="center">
-  🔍 For more detailed information on RISC-V instruction formats and encoding, check out the official <a href="https://riscv.org/technical/specifications/">RISC-V specification</a>.
-</p>
+- Type: R-type 🟢
+- Opcode: `0110011`
+- funct7: `0100000`
+- rs2: `00100`
+- rs1: `00101`
+- funct3: `000`
+- rd: `00101`
+- 32-bit instruction: `0100000 00100 00101 000 00101 0110011`
+</details>
+
+<details>
+<summary><b>📝 AND r4, r5, r5</b></summary>
+
+- Type: R-type 🔴
+- Opcode: `0110011`
+- funct7: `0000000`
+- rs2: `00101`
+- rs1: `00101`
+- funct3: `111`
+- rd: `00100`
+- 32-bit instruction: `0000000 00101 00101 111 00100 0110011`
+</details>
+
+<details>
+<summary><b>📝 OR r8, r4, r5</b></summary>
+
+- Type: R-type 🟡
+- Opcode: `0110011`
+- funct7: `0000000`
+- rs2: `00101`
+- rs1: `00100`
+- funct3: `110`
+- rd: `01000`
+- 32-bit instruction: `0000000 00101 00100 110 01000 0110011`
+</details>
+
+<details>
+<summary><b>📝 XOR r8, r5, r4</b></summary>
+
+- Type: R-type 🟠
+- Opcode: `0110011`
+- funct7: `0000000`
+- rs2: `00100`
+- rs1: `00101`
+- funct3: `100`
+- rd: `01000`
+- 32-bit instruction: `0000000 00100 00101 100 01000 0110011`
+</details>
+
+<details>
+<summary><b>📝 SLT r10, r2, r4</b></summary>
+
+- Type: R-type 🟣
+- Opcode: `0110011`
+- funct7: `0000000`
+- rs2: `00100`
+- rs1: `00010`
+- funct3: `010`
+- rd: `01010`
+- 32-bit instruction: `0000000 00100 00010 010 01010 0110011`
+</details>
+
+<details>
+<summary><b>📝 ADDI r12, r3, 5</b></summary>
+
+- Type: I-type 🟤
+- Opcode: `0010011`
+- imm: `000000000101`
+- rs1: `00011`
+- funct3: `000`
+- rd: `01100`
+- 32-bit instruction: `000000000101 00011 000 01100 0010011`
+</details>
+
+<details>
+<summary><b>📝 SW r3, r1, 4</b></summary>
+
+- Type: S-type 🔵
+- Opcode: `0100011`
+- imm[11:5]: `0000000`
+- rs2: `00011`
+- rs1: `00001`
+- funct3: `010`
+- imm[4:0]: `00100`
+- 32-bit instruction: `0000000 00011 00001 010 00100 0100011`
+</details>
+
+<details>
+<summary><b>📝 SRL r16, r11, r2</b></summary>
+
+- Type: R-type 🟡
+- Opcode: `0110011`
+- funct7: `0000000`
+- rs2: `00010`
+- rs1: `01011`
+- funct3: `101`
+- rd: `10000`
+- 32-bit instruction: `0000000 00010 01011 101 10000 0110011`
+</details>
+
+<details>
+<summary><b>📝 BNE r0, r1, 20</b></summary>
+
+- Type: B-type 🔴
+- Opcode: `1100011`
+- imm[12|10:5]: `000000`
+- rs2: `00001`
+- rs1: `00000`
+- funct3: `001`
+- imm[4:1|11]: `10100`
+- 32-bit instruction: `000000 00001 00000 001 0100 1100011`
+</details>
+
+<details>
+<summary><b>📝 BEQ r0, r0, 15</b></summary>
+
+- Type: B-type 🟢
+- Opcode: `1100011`
+- imm[12|10:5]: `000000`
+- rs2: `00000`
+- rs1: `00000`
+- funct3: `000`
+- imm[4:1|11]: `01110`
+- 32-bit instruction: `000000 00000 00000 000 1110 1100011`
+</details>
+
+<details>
+<summary><b>📝 LW r13, r11, 2</b></summary>
+
+- Type: I-type 🟣
+- Opcode: `0000011`
+- imm: `000000000010`
+- rs1: `01011`
+- funct3: `010`
+- rd: `01101`
+- 32-bit instruction: `000000000010 01011 010 01101 0000011`
+</details>
+
+<details>
+<summary><b>📝 SLL r15, r11, r2</b></summary>
+
+- Type: R-type 🟤
+- Opcode: `0110011`
+- funct7: `0000000`
+- rs2: `00010`
+- rs1: `01011`
+- funct3: `001`
+- rd: `01111`
+- 32-bit instruction: `0000000 00010 01011 001 01111 0110011`
+</details>
 
 <p align="center">
   Made by Phaneendra M V
