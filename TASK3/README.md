@@ -1,5 +1,3 @@
-Certainly! Here's a more visually appealing version of the README file for Task 2:
-
 # 🖥️ RISC-V Instruction Analysis
 
 ## 🎯 Task 2: Instruction Type Identification and 32-Bit Code Generation
