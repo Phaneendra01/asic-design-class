@@ -270,7 +270,7 @@ RISC-V features six powerful instruction formats:
   </h1>
 </p>
 
-<h1 align="center">Your Centered Title</h1>
+<h1 align="center">👨‍🎓 Basic Details</h1>
 
 <p align="center">
   Name: Phaneendra M V
