@@ -9,7 +9,7 @@ Welcome to the VSDSquadron Research Internship program, focusing on RISC-V archi
 **Name:** Phaneendra M V  
 **College:** IIIT Banglore  
 **Email:** Phaneendra.MV@iiitb.ac.in  
-**GitHub:** (https://github.com/Phaneendra01/asic-design-class.git) 
+**GitHub:** (https://github.com/Phaneendra01/asic-design-class.git)\n 
 **LinkedIn:** (www.linkedin.com/in/phaneendra-mv)
 
 ## 📚 Tasks Overview
