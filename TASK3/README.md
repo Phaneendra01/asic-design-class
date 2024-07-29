@@ -39,9 +39,7 @@ RISC-V features six powerful instruction formats:
 <details>
 <summary><b>🟠 I-type Instruction</b></summary>
 
-<p align="center">
   ![a](https://github.com/user-attachments/assets/42af261d-b7df-4b39-8c08-49fc49809f3e)
-</p>
 
 - 🔹 Used for: Immediate and load operations
 - 🔹 Fields: opcode (7 bits), rd (5 bits), func3 (3 bits), rs1 (5 bits), imm[11:0] (12 bits)
