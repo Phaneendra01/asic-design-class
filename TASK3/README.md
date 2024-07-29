@@ -40,7 +40,7 @@ RISC-V features six powerful instruction formats:
 <summary><b>🟠 I-type Instruction</b></summary>
 
 <p align="center">
-  <img src="https://github.com/maazm007/vsdsquadron-mini-internship/assets/83294849/4a53f5fa-d55a-4308-8f93-a0f2f9aedba0" alt="I-type" width="500"/>
+  ![a](https://github.com/user-attachments/assets/42af261d-b7df-4b39-8c08-49fc49809f3e)
 </p>
 
 - 🔹 Used for: Immediate and load operations
