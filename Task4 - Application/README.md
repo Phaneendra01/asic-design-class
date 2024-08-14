@@ -157,3 +157,9 @@ Welcome to Tic-Tac-Toe!
 > 🎉 **Note:** As the GCC output matches with the Spike output for all optimization levels, no debugging is required. The game runs successfully on both standard and RISC-V architectures!
 
 ---
+
+👨‍💻 Author Information
+Name: Phaneendra M V
+Roll Number: MT2024526
+
+🎓 This project was completed by Phaneendra M V as part of the coursework.
