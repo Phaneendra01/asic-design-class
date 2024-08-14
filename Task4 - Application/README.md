@@ -159,7 +159,8 @@ Welcome to Tic-Tac-Toe!
 ---
 
 👨‍💻 Author Information
-Name: Phaneendra M V
-Roll Number: MT2024526
+
+**Name:** Phaneendra M V
+**Roll Number:** MT2024526
 
 🎓 This project was completed by Phaneendra M V as part of the coursework.
