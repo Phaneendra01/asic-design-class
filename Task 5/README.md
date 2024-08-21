@@ -285,7 +285,7 @@ The basic RISC-V architecture consists of the following components:
 7. 🔀 **Branch Logic**: Handles branch instructions
 
 📊 Implementation diagram:
-![RISC-V Implementation](https://github.com/user-attachments/assets/05954d38-47b7-46e5-9ea8-42907c2c61b6)
+![risc-v_impl](https://github.com/user-attachments/assets/1fac7658-4bde-4f60-ab56-4011a93306e3)
 
 ## 1. Program Counter 🔢
 
