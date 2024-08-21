@@ -423,7 +423,7 @@ Verifying the correctness of the implementation:
 *passed = |cpu/xreg[10]>>5$value == (1+2+3+4+5+6+7+8+9);
 ```
 
-![Picture1](https://github.com/user-attachments/assets/e20dfb81-1e33-4f54-bf90-3c2894324349)
+![Picture1](https://github.com/user-attachments/assets/7c7584db-820b-4707-aaf6-1e638d146884)
 
 
 ---
@@ -741,13 +741,13 @@ $funct7_valid = $is_r_instr;
 ```
 
 ## Simulation Passed ✅
-![log](https://github.com/user-attachments/assets/ddc9cc82-6804-4ccb-8316-13cabd26f54b)
+![log](https://github.com/user-attachments/assets/db9c2d84-0848-4708-8698-5c8827a6a238)
 
 ## Diagram �blueprint:
-![block](https://github.com/user-attachments/assets/db10b6ad-afdb-4a0a-83cc-ded99836b3ba)
+![block](https://github.com/user-attachments/assets/c95d0baa-c1a3-4c96-8765-d7f21df812ce)
 
 ## Waveform 📊
 ![wave ](https://github.com/user-attachments/assets/8b2bbb4a-f75b-41bc-a501-667408b2b877)
 
 ## Visualization 🔍
-![viz](https://github.com/user-attachments/assets/d541f8b7-bf46-493c-94da-bf724c64370d)
+![viz](https://github.com/user-attachments/assets/98b11871-b1f8-4747-8ceb-a8c746946dbb)
