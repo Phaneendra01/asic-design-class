@@ -49,7 +49,6 @@ The sequential calculator remembers the previous result and uses it for the next
 ```
 
 📊 Output waveform:
-
 ![1](https://github.com/user-attachments/assets/f21c1284-e140-49cf-bc51-787e229c35f3)
 
 ## 🔗 Pipelined Logic
