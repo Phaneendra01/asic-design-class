@@ -747,7 +747,7 @@ $funct7_valid = $is_r_instr;
 ![block](https://github.com/user-attachments/assets/db10b6ad-afdb-4a0a-83cc-ded99836b3ba)
 
 ## Waveform 📊
-![waveform](https://github.com/user-attachments/assets/912767aa-1551-442f-900f-64c77334201c)
+![wave ](https://github.com/user-attachments/assets/8b2bbb4a-f75b-41bc-a501-667408b2b877)
 
 ## Visualization 🔍
 ![viz](https://github.com/user-attachments/assets/d541f8b7-bf46-493c-94da-bf724c64370d)
