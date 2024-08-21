@@ -96,7 +96,7 @@ Pipelining maximizes resource utilization and reduces delays in performing opera
 ```
 
 📊 Output waveform:
-![2](https://github.com/user-attachments/assets/514bccea-c080-4e82-b1fc-39906d016d4f)
+![2](https://github.com/user-attachments/assets/088a80ce-5b11-4123-9e1b-0ef32a773095)
 
 ## 🔄 Cycle Calculator
 
@@ -136,7 +136,7 @@ The cycle calculator receives input that is two cycles older than the current ou
 ```
 
 📊 Output waveform:
-![3](https://github.com/user-attachments/assets/a4e6af81-ea3d-466e-b4b4-7ad8dab3c766)
+![3](https://github.com/user-attachments/assets/ecc651c6-fb76-4922-8848-4425a1617d6a)
 
 
 ## ✅ Validity
@@ -184,7 +184,7 @@ Validity ensures that the circuit only performs calculations when necessary, red
 ```
 
 📊 Output waveform:
-![4](https://github.com/user-attachments/assets/a984e17e-37db-4676-b4bf-d691e078a95a)
+![4](https://github.com/user-attachments/assets/fe70846a-7853-4d86-9574-d7358a02c77a)
 
 ## 📏 Total Distance Calculator
 
@@ -227,7 +227,7 @@ The total distance calculator computes the cumulative distance traveled in a ser
 ```
 
 📊 Output waveform:
-![5](https://github.com/user-attachments/assets/e5ecd844-c29f-4fc5-9d92-46fd86b88ae1)
+![5](https://github.com/user-attachments/assets/c3ecf067-9485-468e-81be-c0ab65c51ca2)
 
 ## 🔄✅ Validity on Cycle Calculator
 
@@ -268,7 +268,7 @@ Implementing validity on the cycle calculator:
 ```
 
 📊 Output waveform:
-![6](https://github.com/user-attachments/assets/dd25bf69-cf0f-4867-819e-286925c9beb6)
+![6](https://github.com/user-attachments/assets/05e77ec4-b20c-4267-9341-d861d79d2d3d)
 
 # 🖥️ RISC-V Processor Implementation Guide
 
@@ -301,7 +301,7 @@ The program counter (PC) is a crucial component that keeps track of the next ins
 $pc[31:0] = >>1$reset ? 0 : (>>1$pc + 31'h4);
 ```
 
-![7](https://github.com/user-attachments/assets/63637a9d-46a5-4992-a546-4ee51a25e461)
+![7](https://github.com/user-attachments/assets/80f354fc-3953-4d6e-acb7-68bac43057fc)
 
 ## 2. Instruction Memory 📚
 
@@ -314,7 +314,7 @@ $imem_rd_en = >>1$reset ? 0 : 1;
 $imem_rd_addr[M4_IMEM_INDEX_CNT-1:0] = $pc[M4_IMEM_INDEX_CNT+1:2];
 $instr[31:0] = $imem_rd_data[31:0];
 ```
-![8](https://github.com/user-attachments/assets/42c2f863-d283-4fa1-8de5-9c960edfafbf)
+![8](https://github.com/user-attachments/assets/ec863ed5-854d-44d7-873a-27024f3c75ea)
 
 ## 3. Instruction Decoding 🧩
 
@@ -328,7 +328,7 @@ $is_r_instr = $instr[6:2] ==? 5'b01011 || /* ... */;
 // ... (other instruction types)
 ```
 
-![9](https://github.com/user-attachments/assets/f22017e6-912c-4433-887a-95dd9138268d)
+![9](https://github.com/user-attachments/assets/95a5a6e1-b471-4be4-8f88-8d09cb6b76fb)
 
 ## 4. Immediate Value Decoding 🔢
 
@@ -342,7 +342,7 @@ $imm[31:0] = $is_i_instr ? {{21{$instr[31]}}, $instr[30:20]} :
               // ... (other instruction types)
 ```
 
-![10](https://github.com/user-attachments/assets/f71dda46-617c-445e-a357-90b0b5433dbb)
+![10](https://github.com/user-attachments/assets/eb8a6906-ca8f-4112-8d0a-423a6e510030)
 
 ## 5. Other Field Decoding 🏷️
 
@@ -355,7 +355,7 @@ $rs2_valid = $is_r_instr || $is_s_instr || $is_b_instr;
 // ... (other fields)
 ```
 
-![11](https://github.com/user-attachments/assets/5ead09bd-ada4-40d0-8914-5cee92c4a26f)
+![11](https://github.com/user-attachments/assets/64f10d94-45d0-406a-8741-51b41199bed9)
 
 ## 6. Individual Instruction Decoding 🔍
 
@@ -368,7 +368,7 @@ $is_bne = $dec_bits ==? 11'bx_001_1100011;
 // ... (other instructions)
 ```
 
-![12](https://github.com/user-attachments/assets/febf67c3-d599-4971-b32b-a429477025f7)
+![12](https://github.com/user-attachments/assets/e0a1e776-418e-478f-a1ca-141b75aaee39)
 
 ## 7. Register File Operations 📂
 
@@ -379,7 +379,7 @@ $rf_rd_en1 = $rs1_valid;
 $rf_rd_index1[4:0] = $rs1;
 // ... (similar for second read port)
 ```
-![13](https://github.com/user-attachments/assets/449d3400-b0a9-4ba3-9eb8-62d29568fe8c)
+![13](https://github.com/user-attachments/assets/bf4ebbad-10c9-48a2-96af-31009d956532)
 
 ### Writing to Registers:
 
@@ -389,7 +389,7 @@ $rf_wr_index[4:0] = $rd;
 $rf_wr_data[31:0] = $result;
 ```
 
-![14](https://github.com/user-attachments/assets/05a8e150-8415-46e5-bbd2-3817f84d240b)
+![14](https://github.com/user-attachments/assets/61243b6a-3786-48a7-a00a-d3fd08f22077)
 
 ## 8. Arithmetic Logic Unit (ALU) 🧮
 
@@ -401,7 +401,7 @@ $result[31:0] = $is_addi ? $src1_value + $imm :
                 32'bx ;
 ```
 
-![15](https://github.com/user-attachments/assets/0708a1fa-ded3-4355-8de5-69a5a11e8694)
+![15](https://github.com/user-attachments/assets/cf575dcd-d32d-47f7-90ab-9f158da6e0f8)
 
 ## 9. Branch Instructions 🔀
 
@@ -413,7 +413,7 @@ $taken_branch = $is_beq ? ($src1_value == $src2_value) :
                 // ... (other branch conditions)
 $br_target_pc[31:0] = $pc + $imm;
 ```
-![16](https://github.com/user-attachments/assets/12843dd8-72ed-44ec-94c9-7af93eaa49f9)
+![16](https://github.com/user-attachments/assets/f13682e4-cad5-45a8-a602-ffe79b69fe12)
 
 ## 10. Testbench Verification ✅
 
