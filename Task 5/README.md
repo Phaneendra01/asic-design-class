@@ -751,3 +751,5 @@ $funct7_valid = $is_r_instr;
 
 ## Visualization 🔍
 ![viz](https://github.com/user-attachments/assets/98b11871-b1f8-4747-8ceb-a8c746946dbb)
+
+## The waveform for the /xreg[14] where the sum of this program is store:
