@@ -74,3 +74,5 @@ In the simulation file (`pre_synth_sim.vcd`), you will find:
 - **clk_phan:** The clock input to the RISC-V core.
 - **reset:** The reset signal for the RISC-V core.
 - **OUT[9:0]:** The 10-bit output port from the RISC-V core, originally from register #14.
+
+![3](https://github.com/user-attachments/assets/e4f82b62-6163-44f0-b941-002244e38d76)
