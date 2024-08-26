@@ -32,6 +32,7 @@ Convert the high-level TL-Verilog `.tlv` file into low-level Verilog `.v` format
 ```bash
 sandpiper-saas -i ./src/module/*.tlv -o rvmyth.v --bestsv --noline -p verilog --outdir ./src/module/
 ```
+![1](https://github.com/user-attachments/assets/79e73bb6-0eea-4808-802e-8e3af3ccaf4b)
 
 ### 5. Generate the `pre_synth_sim.vcd`
 
@@ -58,6 +59,8 @@ cd output
 ```
 
 This will generate the simulation waveform file (`pre_synth_sim.vcd`).
+
+![2](https://github.com/user-attachments/assets/749d0152-17dd-438f-a81f-2aae63276872)
 
 ### 7. View the Simulation Results
 
