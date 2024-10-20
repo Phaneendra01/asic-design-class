@@ -5,7 +5,7 @@ A simulator is a tool used to verify whether a design adheres to its specificati
 
 Below is the simulation flow based on Icarus Verilog.
 
-![image](https://github.com/user-attachments/assets/7da43121-8525-4e69-9543-694f9b843260)
+![1](https://github.com/user-attachments/assets/c8f2d198-d6bf-48d3-8ab7-aed7f2dcc05d)
 
 ### Initial Setup
 	 Enter the following commands in the Ubuntu terminal as depicted in the screenshot
@@ -24,7 +24,7 @@ ls
 
 We can observe the list of files present in the directory. 
 
-![Screenshot from 2024-10-19 14-43-24](https://github.com/user-attachments/assets/b22d3e89-762e-4390-9841-2cd28ff3aeaf)
+![2](https://github.com/user-attachments/assets/b7dc9189-a7dc-4ae2-b708-458650935469)
 
  <details>
 	  <summary>Day 1:</summary>
@@ -33,10 +33,10 @@ We can observe the list of files present in the directory.
 	  Introduction to iverilog and GTKWave: This tutorial involved learning about how to simulate the design and testbench for a 2x1 multiplexer, using iverilog, and displaying the waveform on GTKWave.
 	  
 	
-![Screenshot from 2024-10-19 14-56-59](https://github.com/user-attachments/assets/67bf13c1-5d60-4625-a3c9-c37e06e14dfb)
-   	  
-![Screenshot from 2024-10-19 14-58-00](https://github.com/user-attachments/assets/c198a352-5b68-489b-a601-e30fbbdf9f7b)
+![3](https://github.com/user-attachments/assets/bd44924d-2322-4dc9-9053-4b1dbe3e8e89)
 
+![4](https://github.com/user-attachments/assets/8e2899cf-7fb0-48ae-8a55-53e33eb20494)
+   	  
   ```
   //Design 
   module good_mux (input i0, input i1, input sel, output reg y);
@@ -112,32 +112,32 @@ module good_mux(i0, il, sel, y);
 	assign y = _3_;
 endmodule
 ```
+![5](https://github.com/user-attachments/assets/5210318d-7461-4068-bb92-8d9f18a61efe)
 
-![Screenshot from 2024-10-19 15-11-28](https://github.com/user-attachments/assets/c27eb3e6-1444-4c5e-ad1f-ac3a8bde3f47)
+![6](https://github.com/user-attachments/assets/af9981b7-e43f-4921-8a15-348000b975ba)
 
-![Screenshot from 2024-10-19 15-12-17](https://github.com/user-attachments/assets/9c5b47dd-af15-491c-ac25-51cb8810ebcc)
+![7](https://github.com/user-attachments/assets/6aa3834c-90b0-40f5-a51d-440a89e3ae9a)
 
-![Screenshot from 2024-10-19 15-12-25](https://github.com/user-attachments/assets/f01fab21-40cf-4268-be85-c7ad0eadfac1)
+![8](https://github.com/user-attachments/assets/06c2a605-cb44-4c5e-bba7-9e098e2f7845)
 
-![Screenshot from 2024-10-19 15-12-30](https://github.com/user-attachments/assets/6a945dc7-0637-479d-bce6-4a1a34b3fc72)
+![9](https://github.com/user-attachments/assets/a9ff7baf-3aba-4f2f-80c7-b99f4aa3f7ae)
 
-![Screenshot from 2024-10-19 15-12-39](https://github.com/user-attachments/assets/0a36a047-4090-4bfb-9a39-455f4ac8bd33)
+![10](https://github.com/user-attachments/assets/3eb4d1a5-c91d-44c8-9c87-c6800101d2f3)
 
-![Screenshot from 2024-10-19 15-12-57](https://github.com/user-attachments/assets/8dd6bc7f-1328-43e5-9d26-b90aa0cdaa95)
+![11](https://github.com/user-attachments/assets/711a2355-e081-42d3-9b35-acac9c7ceb40)
 
-![Screenshot from 2024-10-19 15-13-09](https://github.com/user-attachments/assets/816a5c98-7cab-4717-bda8-7846c9d01b08)
+![12](https://github.com/user-attachments/assets/cb6eb58b-8ef7-42cd-980e-20074ce3b3cc)
 
-![Screenshot from 2024-10-19 15-14-35](https://github.com/user-attachments/assets/7909d585-d794-4345-99e8-6cede3fde17d)
+![13](https://github.com/user-attachments/assets/e274b1f4-2519-4caf-982d-df3796ae0055)
 
-![Screenshot from 2024-10-19 15-17-28](https://github.com/user-attachments/assets/7edf43f9-fc4c-463b-a9f8-984509bb70c3)
+![14](https://github.com/user-attachments/assets/ba787163-d93c-4c64-aeb6-10e624c1c6d6)
 
-![Screenshot from 2024-10-19 15-18-07](https://github.com/user-attachments/assets/e841cb82-7268-4181-b72f-892a875b882d)
+![15](https://github.com/user-attachments/assets/6ff70087-fb82-411f-a5fc-5ad99585c863)
 
-![Screenshot from 2024-10-19 16-53-54](https://github.com/user-attachments/assets/baa7d5fd-d72c-4e7e-bdfa-ea8de5454bb5)
+![16](https://github.com/user-attachments/assets/1b772a91-dea6-4a58-b536-0e5ffbe21db0)
 
-![Screenshot from 2024-10-19 16-06-51](https://github.com/user-attachments/assets/f1d2674f-f14f-4f58-ae7f-25b2a056097e)
+![17](https://github.com/user-attachments/assets/a33a0612-d826-40fa-ac47-52c3e30b862b)
 
-![Screenshot from 2024-10-19 16-24-46](https://github.com/user-attachments/assets/78d46533-dab0-4882-a153-a9037d20b415)
   </li>
   
   </details>
@@ -221,19 +221,30 @@ module sub_module2 (a, b, y);
 	assign y = _2_;
 endmodule
 ```
+![18](https://github.com/user-attachments/assets/27a7d887-89f9-4b8f-873a-050db09bc195)
 
+![19](https://github.com/user-attachments/assets/847424cf-602e-48de-a065-6e8e2bdd188d)
 
-![Screenshot from 2024-10-20 00-18-44](https://github.com/user-attachments/assets/1358819b-aa3a-49df-ac14-772e20a18157)
+![20](https://github.com/user-attachments/assets/4c57118b-53f7-453b-b4f7-1eba6c00d656)
 
-![Screenshot from 2024-10-20 00-19-44](https://github.com/user-attachments/assets/fcc9546e-1421-44ec-97a8-da41347f4e18)
+![21](https://github.com/user-attachments/assets/0675a04c-7058-4392-8eb7-6948b3a68ba6)
 
-![Screenshot from 2024-10-20 10-56-11](https://github.com/user-attachments/assets/b8894646-2dd2-4218-b0ae-a6480900cc99)
+![22](https://github.com/user-attachments/assets/0aa1d56f-530a-4a06-baf1-94b792be56ba)
 
-![Screenshot from 2024-10-20 00-20-21](https://github.com/user-attachments/assets/66245a17-892a-4221-8c86-9ca2b96e7b12)
+![23](https://github.com/user-attachments/assets/b6cc6e77-b539-45aa-97f2-47e06fc9b60c)
 
-![Screenshot from 2024-10-20 00-20-57](https://github.com/user-attachments/assets/4cefbd3b-1699-4b86-bb00-7202994a090b)
+![24](https://github.com/user-attachments/assets/d2babcf9-e6b2-4528-8dd0-9bed78da6df3)
 
-![Screenshot from 2024-10-20 00-07-15](https://github.com/user-attachments/assets/bb638174-2d5a-4bc0-a7a6-217cc9232c18)
+![25](https://github.com/user-attachments/assets/6a57e56e-f9ba-4060-8121-a8866fc3f1cb)
+
+![26](https://github.com/user-attachments/assets/ad2b65fc-d59a-4159-876b-1e6b9df9e479)
+
+![27](https://github.com/user-attachments/assets/60ae2c8d-4157-4f3f-bb86-7f4fd9a9d0b4)
+
+![28](https://github.com/user-attachments/assets/5dff806d-9cbe-4f3a-8748-6f24d21e28e5)
+
+![29](https://github.com/user-attachments/assets/dbc3b547-ff83-4c49-b0ba-1782f0df7245)
+
 <li>
 	Module-Level Synthesis: This method is ideal when there are multiple instances of the same module. The synthesis is performed once and then replicated multiple times, with all instances being connected in the top module. This approach is especially useful when applying the divide-and-conquer algorithm.
  ```
@@ -244,7 +255,6 @@ endmodule
 5. abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 6. show
 ```
-![Screenshot from 2024-10-20 00-21-53](https://github.com/user-attachments/assets/928fe246-1a6d-4ea1-9292-3c219723027d)
 </li>
 
 <li>
@@ -296,10 +306,12 @@ module multiple_modules (a, b, c, y);
 	assign net1 = \u1.y;
 endmodule
 ```
+![30](https://github.com/user-attachments/assets/77434ac8-779c-41ff-ac50-50f59b1624d2)
 
-![Screenshot from 2024-10-20 00-24-13](https://github.com/user-attachments/assets/e033e09c-e4ab-4a2d-ad4b-38794444b2c8)
-![Screenshot from 2024-10-20 00-08-53](https://github.com/user-attachments/assets/fba372b6-5fb7-47ca-8b4e-41559fe8a291)
-![Screenshot from 2024-10-19 23-50-39](https://github.com/user-attachments/assets/7dd8e450-7e1f-45f2-91fd-f0f4c4230011)
+![31](https://github.com/user-attachments/assets/a714f466-e62b-47df-9a23-d9e062abcc59)
+
+![32](https://github.com/user-attachments/assets/5b65ca3f-273c-4aeb-b152-f4c0e9c1cb00)
+
 </li>
 
 <li>
