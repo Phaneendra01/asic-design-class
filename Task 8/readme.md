@@ -356,10 +356,9 @@ module tb_dff_asyncres;
 	always #547 async_reset=~async_reset; 
 endmodule
 ```
+![33](https://github.com/user-attachments/assets/3b990598-2c7b-4391-9cae-2aa080855650)
 
-![Screenshot from 2024-10-20 00-35-37](https://github.com/user-attachments/assets/674eb7bf-84a8-4c99-97a4-b26e429589af)
-
-![Screenshot from 2024-10-20 00-33-36](https://github.com/user-attachments/assets/c6a96a2e-527a-4525-aae7-26f5b31f2bd3)
+![34](https://github.com/user-attachments/assets/913faf74-e9d9-4634-89d3-a0658ada06a5)
 
       From the waveform, it can be observed that the Q output changes to zero when the asynchronous reset is asserted high, regardless of the clock edge (positive or negative).
 
@@ -403,10 +402,9 @@ module tb_dff_async_set;
 	always #547 async_set=~async_set; 
 endmodule
 ```
+![35](https://github.com/user-attachments/assets/2321fca9-478a-45c7-bc84-3efc88c606ff)
 
-![Screenshot from 2024-10-20 00-35-37](https://github.com/user-attachments/assets/674eb7bf-84a8-4c99-97a4-b26e429589af)
-
-![Screenshot from 2024-10-20 00-34-53](https://github.com/user-attachments/assets/fe61c8d9-0d36-497b-9932-db0e5f96ae4e)
+![36](https://github.com/user-attachments/assets/b551d90f-278b-4612-8e4d-ec49b5c7d580)
 
 From the waveform, it can be observed that the Q output changes to one when the asynchronous set is asserted high, regardless of the clock edge (positive or negative).
 
@@ -450,10 +448,9 @@ module tb_dff_syncres;
 	always #547 sync_reset=~async_reset; 
 endmodule
 ```
-      
-![Screenshot from 2024-10-20 00-35-37](https://github.com/user-attachments/assets/674eb7bf-84a8-4c99-97a4-b26e429589af)
+![37](https://github.com/user-attachments/assets/b6d01d01-5230-453c-af93-8c28fd4a8af3)
 
-![Screenshot from 2024-10-20 00-36-05](https://github.com/user-attachments/assets/76b47b02-743c-465a-951d-0056f2f8b1ce)
+![38](https://github.com/user-attachments/assets/9b4b6d04-16f9-4fcd-aa86-1496ea831893)
 
 From the waveform, it can be observed that the Q output changes to zero when the synchronous reset is set high, only at the positive clock edge.
 
@@ -492,9 +489,9 @@ module dff_asyncres (clk, async_reset, d, q);
 	assign _2_ = _1_;
 endmodule
 ```
+![39](https://github.com/user-attachments/assets/70825a27-c7b6-4995-af40-2cc4e82e6244)
 
-![Screenshot from 2024-10-20 00-45-05](https://github.com/user-attachments/assets/9fef968f-69a7-48ec-a826-b73720db62f4)
-![Screenshot from 2024-10-20 00-44-22](https://github.com/user-attachments/assets/8d157f34-8466-4d8e-a956-83cb8f1afd35)
+![40](https://github.com/user-attachments/assets/a459580c-ff54-4c96-b169-0084aa761c15)
 
 Asynchronous Set		
   
@@ -526,8 +523,8 @@ module dff_async_set (clk, async_set, d, q);
 	assign _2_ = _1_;
 endmodule
 ```
+![41](https://github.com/user-attachments/assets/d48cd9ff-1561-4b9e-9bb6-d9a9a4d35780)
 
-![Screenshot from 2024-10-20 00-56-43](https://github.com/user-attachments/assets/dd23a723-6358-4d07-acc1-57dedc039210)
 Synchronous Reset:
   
 ```
@@ -559,7 +556,7 @@ module dff_syncres (clk, sync_reset, d, q);
 endmodule
 ```
 
-![Screenshot from 2024-10-20 01-03-23](https://github.com/user-attachments/assets/12b84888-85d6-4ab0-bc03-fb1fe70f89b0)
+![42](https://github.com/user-attachments/assets/b362bbb8-8114-4217-99cb-15c5594d434b)
 
 </li>
 
@@ -593,10 +590,9 @@ module mul2(a,y);
 	assign y = {a,1'h0};
 endmodule
 ```
+![43](https://github.com/user-attachments/assets/329ddca1-0742-498e-9af8-970d0e17e9b0)
 
-![Screenshot from 2024-10-20 01-05-24](https://github.com/user-attachments/assets/5ccb7409-3bf7-44d5-9f87-3aede1ba570a)
-
-![Screenshot from 2024-10-20 01-06-00](https://github.com/user-attachments/assets/2dd47629-9d35-409f-aae7-f6f6edafabe0)
+![44](https://github.com/user-attachments/assets/66abbf99-fa72-42e1-84d2-4a927b9fa853)
 
 </li>
 
@@ -630,9 +626,7 @@ module mul9(a,y);
 	assign y = {a,a};
 endmodule
 ```
-
-![Screenshot from 2024-10-20 01-35-32](https://github.com/user-attachments/assets/9a0513b8-82a6-4af8-bfed-925e97d54f09)
-![Screenshot from 2024-10-20 01-29-38](https://github.com/user-attachments/assets/59cf5edc-ced5-4e92-b06d-bd574ffb56ac)
+![45](https://github.com/user-attachments/assets/2aa1e451-a23b-4531-88ba-60a662801db8)
 
 </li>
 
@@ -663,12 +657,11 @@ module opt_check(input a, input b, output y);
 	assign y = a?b:0;
 endmodule
 ```
+![46](https://github.com/user-attachments/assets/3867e5e9-69bb-465e-a743-ac58fd050cb3)
 
-![Screenshot from 2024-10-20 12-08-05](https://github.com/user-attachments/assets/d18e235a-452a-4628-8604-98f07b4477cf)
+![47](https://github.com/user-attachments/assets/9f396265-f3f2-4577-a60f-320194dfd36e)
 
-![Screenshot from 2024-10-20 12-18-23](https://github.com/user-attachments/assets/25834df5-3ea0-4c5e-b0e2-4ac89e86859a)
-
-![Screenshot from 2024-10-20 12-09-30](https://github.com/user-attachments/assets/1140c306-1f2c-4b2a-9d88-66481d14754d)
+![48](https://github.com/user-attachments/assets/7010cee0-0ef0-46cd-94f7-0cb392be3fea)
 
 </li>
 
@@ -691,12 +684,12 @@ module opt_check2(input a, input b, output y);
 	assign y = a?1:b;
 endmodule
 ```
+![49](https://github.com/user-attachments/assets/a922d27c-cc81-4c7b-a81d-08c2b84724a2)
 
-![Screenshot from 2024-10-20 12-10-34](https://github.com/user-attachments/assets/76558d1c-856d-4681-9eff-f2658d62a113)
+![50](https://github.com/user-attachments/assets/218d85df-04bd-4cb1-9f79-3f02c458afe1)
 
-![Screenshot from 2024-10-20 12-11-03](https://github.com/user-attachments/assets/76f173a1-e161-485b-a401-b4b937720947)
+![51](https://github.com/user-attachments/assets/46f4b57e-3c8b-4c75-989c-fdd7ff0cab29)
 
-![Screenshot from 2024-10-20 12-11-19](https://github.com/user-attachments/assets/99ca2145-e75f-471e-ad85-037a21a9d69a)
 </li>	
 
 <li>
@@ -718,12 +711,11 @@ module opt_check2(input a, input b, input c, output y);
 	assign y = a?(b?c:0):0;
 endmodule
 ```
+![52](https://github.com/user-attachments/assets/3a41bcf0-af7a-4871-a13d-ad324602c372)
 
-![Screenshot from 2024-10-20 12-13-14](https://github.com/user-attachments/assets/a34875a6-9813-4e1b-af1d-c403cf1bb6b5)
+![53](https://github.com/user-attachments/assets/ee057a3d-1c08-4fab-9567-2a2ed4232017)
 
-![Screenshot from 2024-10-20 12-13-47](https://github.com/user-attachments/assets/0e296d77-fc24-46bf-b459-bb693fd67582)
-
-![Screenshot from 2024-10-20 12-14-01](https://github.com/user-attachments/assets/2f03c177-8a13-4889-b1e6-fb494c8d4ae5)
+![54](https://github.com/user-attachments/assets/c64e068a-8e3e-4a81-abd4-ced09426b015)
 
 </li>
 
@@ -746,10 +738,11 @@ module opt_check2(input a, input b, input c, output y);
 	assign y = a ? (b ? ~c : c) : ~c;
 endmodule
 ```
+![55](https://github.com/user-attachments/assets/c0e9ee20-b6e8-4c1d-a5b7-44395ac67401)
 
-![Screenshot from 2024-10-20 12-16-33](https://github.com/user-attachments/assets/5f43c59a-7cfa-48ca-982a-adba4609891f)
-![Screenshot from 2024-10-20 12-16-20](https://github.com/user-attachments/assets/79c137fe-bbe6-4322-ad2b-ca8e5aa3dcda)
-![Screenshot from 2024-10-20 12-15-58](https://github.com/user-attachments/assets/8c16efa0-8c2c-4cf3-9266-0e4a38567bb0)
+![56](https://github.com/user-attachments/assets/2915fcf6-d55c-4cf4-94de-6cf806a6d162)
+
+![57](https://github.com/user-attachments/assets/bc94f5d7-1895-4713-9241-fe86d36d40a2)
 
 </li>
 
@@ -787,13 +780,12 @@ module multiple_module_opt(input a, input b input c, input d output y);
 	assign y = c | (b & n1);
 endmodule
 ```
+![58](https://github.com/user-attachments/assets/15dde80e-08a1-4d6d-ba4e-7f422c4e74c2)
 
-![Screenshot from 2024-10-20 13-39-25](https://github.com/user-attachments/assets/eff942f7-5eec-4a39-9aa8-3b71891a5df8)
+![59](https://github.com/user-attachments/assets/83335941-a0d2-4f23-b596-62157a363729)
 
+![60](https://github.com/user-attachments/assets/ce02f234-975c-43b1-9cfa-0840f7856d3d)
 
-![Screenshot from 2024-10-20 13-40-34](https://github.com/user-attachments/assets/e27a1cda-d65f-4a4b-8c3c-aeffe538bb44)
-
-![Screenshot from 2024-10-20 13-40-53](https://github.com/user-attachments/assets/6f20feb6-10c5-42fd-b5f7-5ea01d6dc3a0)
 </li>
 
 <li>
@@ -865,10 +857,9 @@ module tb_dff_const1;
 	always #1547 reset=~reset;
 endmodule
 ```
- 
-![Screenshot from 2024-10-20 13-44-14](https://github.com/user-attachments/assets/527a0166-d846-4131-a8c0-e7014b1eeb2b)
+![61](https://github.com/user-attachments/assets/1274b2af-67a7-4ffd-9e46-b06f52cc6289)
 
-![Screenshot from 2024-10-20 13-44-51](https://github.com/user-attachments/assets/ab2cfd0f-123d-4372-a89a-45e656176485)
+![62](https://github.com/user-attachments/assets/840adb12-1798-430d-ba15-c150a8787ceb)
 
 From the waveform, it can be observed that the Q output is always high when reset is zero, and reset doesn't depend on clock edge.
   
@@ -880,10 +871,10 @@ From the waveform, it can be observed that the Q output is always high when rese
 5. dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 7. show
 ```
+![63](https://github.com/user-attachments/assets/e3e762af-bf90-4e46-ad39-f106261a9ce6)
 
-![Screenshot from 2024-10-20 13-47-03](https://github.com/user-attachments/assets/5f32f280-08c6-4d3e-a4db-b46237ff67bf)
+![64](https://github.com/user-attachments/assets/149a5980-ad46-4ad0-a72e-030d6b54d991)
 
-![Screenshot from 2024-10-20 13-47-22](https://github.com/user-attachments/assets/1d9d4114-44cd-4673-a9c3-c4babb82732a)
 </li>
 
 <li>
@@ -927,9 +918,10 @@ clk = 0;
 endmodule
 ```
  
-![Screenshot from 2024-10-20 13-47-54](https://github.com/user-attachments/assets/917abe8b-085d-4eaa-9ed2-6f6f098f9938)
+![65](https://github.com/user-attachments/assets/15a4582b-1fe3-4a9e-ab81-cac5afe1fe90)
 
-![Screenshot from 2024-10-20 13-48-25](https://github.com/user-attachments/assets/3d17fa5d-3135-43be-ac17-aa6e2423163d)
+![66](https://github.com/user-attachments/assets/f78799f2-616d-407e-91fc-1dae70400ac0)
+
 From the waveform, it can be observed that the Q output is always high irrespective of reset.
   
 ```
@@ -940,9 +932,9 @@ From the waveform, it can be observed that the Q output is always high irrespect
 5. dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 7. show
 ```
+![67](https://github.com/user-attachments/assets/b4df798b-4200-4002-9e81-446686ea80ec)
 
-![Screenshot from 2024-10-20 13-51-56](https://github.com/user-attachments/assets/bf4eb299-b590-4e3a-9482-47901535ff71)
-![Screenshot from 2024-10-20 13-50-35](https://github.com/user-attachments/assets/b53eaaf7-bdc5-409c-b528-96b96aaca217)
+![68](https://github.com/user-attachments/assets/a1ef5838-fe24-403e-83af-95ccd2089aed)
 
 </li>
 
@@ -978,10 +970,9 @@ endmodule
 5. dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 7. show
 ```
+![69](https://github.com/user-attachments/assets/ad6d6171-f26d-4d70-8dda-a7634af62b39)
 
-![Screenshot from 2024-10-20 13-52-56](https://github.com/user-attachments/assets/4ef16aba-d82b-4158-8f62-e9346db7190d)
-
-![Screenshot from 2024-10-20 13-53-38](https://github.com/user-attachments/assets/4e6881a1-776b-4568-894b-dda3f32ad83b)
+![70](https://github.com/user-attachments/assets/e3ed2843-797c-4150-84bf-c317dc5edf1b)
 
 This module defines a D flip-flop in which, upon a positive edge reset, qq is set to 1 and q1q1 is set to 0. With each clock cycle, q1q1 is updated to 1, and qq takes on the value of q1q1.
 
@@ -1022,9 +1013,9 @@ endmodule
 7. show
 ```
 
-![Screenshot from 2024-10-20 13-54-42](https://github.com/user-attachments/assets/8ddb0d7e-6b72-4156-a37d-c6df99fb1d37)
+![71](https://github.com/user-attachments/assets/b2fe74ef-c066-4a3b-b0ad-a4c105cd04d9)
 
-![Screenshot from 2024-10-20 13-55-18](https://github.com/user-attachments/assets/b1cd8666-1059-4abd-b31c-94c3eb77fd2b)
+![72](https://github.com/user-attachments/assets/57d7f765-6c38-4d9d-9e29-6d24601aedb8)
 
 This module defines a D flip-flop that sets both q and q1 to 1 on a positive edge of reset. On each clock cycle, q1 remains 1, and q is updated with the value of q1 (which is always 1).
 
@@ -1064,10 +1055,10 @@ endmodule
 5. dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 7. show
 ```
+![73](https://github.com/user-attachments/assets/f5bab4fc-062b-4848-9b0e-b21cef7d4188)
 
-![Screenshot from 2024-10-20 13-56-47](https://github.com/user-attachments/assets/3b5096df-07e8-4c91-b76d-ba0f9e9e6016)
+![74](https://github.com/user-attachments/assets/30899792-566d-4e22-8388-57933136d90a)
 
-![Screenshot from 2024-10-20 13-57-12](https://github.com/user-attachments/assets/05d5df3c-6860-424c-b723-b8f0ef025d68)
 This module defines a D flip-flop that resets both qq and q1q1 to 0 upon a positive edge of reset. With each clock cycle, q1q1 is set to 1, and qq is then updated to match the value of q1q1 (which will always be 1 after the first cycle).
 
 When synthesized, the design will produce a flip-flop where qq remains at 1 following the first clock cycle after the reset.
@@ -1100,10 +1091,10 @@ endmodule
 5. dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 7. show
 ```
+![75](https://github.com/user-attachments/assets/5c1f38cf-8897-458e-ab75-f0c70d0450f1)
 
-![Screenshot from 2024-10-20 13-58-16](https://github.com/user-attachments/assets/91822b70-16c8-4925-b05a-4b53559e78f6)
+![76](https://github.com/user-attachments/assets/088dff6d-493a-47ef-8921-a74cc96ef926)
 
-![Screenshot from 2024-10-20 13-58-30](https://github.com/user-attachments/assets/a30bb60b-9377-4e2f-9b05-e0e76f7e9133)
 </li>
 
 <li>
@@ -1133,10 +1124,9 @@ endmodule
 5. dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 7. show
 ```
+![77](https://github.com/user-attachments/assets/410d205c-57a7-4072-9d80-a8e0e6074ca0)
 
-![Screenshot from 2024-10-20 14-04-56](https://github.com/user-attachments/assets/233723bf-fbd6-4b38-bd7a-33eadf112094)
-
-![Screenshot from 2024-10-20 14-05-45](https://github.com/user-attachments/assets/06d71651-0967-4069-8f51-6f0606e2456d)
+![78](https://github.com/user-attachments/assets/653320a7-57ec-4c23-8adf-914a4c7250a3)
  
 </li>
 
@@ -1164,9 +1154,9 @@ gtkwave tb_ternary_operator_mux.vcd
 
 These commands perform iverilog and GTKWave simulation.
 
-![Screenshot from 2024-10-20 14-47-41](https://github.com/user-attachments/assets/135af422-39af-4181-96cb-4cd570be26cb)
+![79](https://github.com/user-attachments/assets/b427806c-edd7-451e-be72-055a3f35227a)
 
-![Screenshot from 2024-10-20 14-48-07](https://github.com/user-attachments/assets/d9311642-5568-4b86-b387-06313afb4866)
+![80](https://github.com/user-attachments/assets/5054544f-1f04-4aa2-b218-9e3672054a9e)
 
 ```
 1. yosys
@@ -1200,18 +1190,16 @@ module ternary_operator_mux(i0, il, sel, y);
 	assign y = _3_;
 endmodule
 ```
-
-![Screenshot from 2024-10-20 14-51-09](https://github.com/user-attachments/assets/ee242f1e-b4be-4490-9eec-c41c64a52603)
+![81](https://github.com/user-attachments/assets/dcc9b27d-4b61-4d54-849a-3d145c5be08c)
 
 ```
 iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v ternary_operator_mux.v tb_ternary_operator_mux.v
 ./a.out
 gtkwave tb_ternary_operator_mux.vcd
 ```
+![82](https://github.com/user-attachments/assets/d1e05dfa-a78d-4600-9840-e5f0e1d6b130)
 
-![Screenshot from 2024-10-20 14-52-00](https://github.com/user-attachments/assets/24ec3204-b9b1-401a-8923-bf9d3bab757c)
-
-![Screenshot from 2024-10-20 15-13-10](https://github.com/user-attachments/assets/84d3783d-83bb-41de-bba5-9d47657ef1dd)
+![83](https://github.com/user-attachments/assets/f88c264a-e730-439d-ad59-af5b2c61e918)
 
 These waveforms correspond to the GATE LEVEL SYNTHESIS for the Ternary Operator MUX.
 
@@ -1238,9 +1226,9 @@ iverilog bad_mux.v tb_bad_mux.v
 ./a.out
 gtkwave tb_bad_mux.vcd
 ```
+![84](https://github.com/user-attachments/assets/3e4b5940-1353-4108-894a-8cd1dc00604a)
 
-![Screenshot from 2024-10-20 15-03-49](https://github.com/user-attachments/assets/aee93f19-1fe0-4271-93a5-86bbada7acd9)
-![Screenshot from 2024-10-20 15-03-22](https://github.com/user-attachments/assets/009ae054-238f-41af-82db-5541626878ac)
+![85](https://github.com/user-attachments/assets/601cd541-94d4-4b6b-97b8-af3a10f025ca)
 
 From the waveform, it can be observed that the output yy changes only when there is a change in the select line, completely disregarding any changes in i0i0 and i1i1, which should also influence the output yy. Therefore, this design represents a faulty multiplexer (MUX).
 
@@ -1277,18 +1265,16 @@ module bad_mux(i0, il, sel, y);
 	assign y = _3_;
 endmodule
 ```
-
-![Screenshot from 2024-10-20 15-07-21](https://github.com/user-attachments/assets/acf4336d-398d-4366-883f-ae9d121bd55f)
+![86](https://github.com/user-attachments/assets/1c453216-c299-4ba2-aaf0-c38123b207f2)
 
 ```
 iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v bad_mux.v tb_bad_mux.v
 ./a.out
 gtkwave tb_bad_mux.vcd
 ```
+![87](https://github.com/user-attachments/assets/8416c652-6137-44b3-947a-5c07005f0e72)
 
-![Screenshot from 2024-10-20 15-49-52](https://github.com/user-attachments/assets/013350b6-9761-41b4-a0e4-245e15dc4418)
-
-![Screenshot from 2024-10-20 15-09-13](https://github.com/user-attachments/assets/850e946b-813e-4038-af0b-714b38a46173)
+![88](https://github.com/user-attachments/assets/fdd0223e-02ff-4af3-ad5c-25a8f75f8fdc)
 
 These waveforms correspond to the GATE LEVEL SYNTHESIS for the Bad MUX.
 
