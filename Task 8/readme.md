@@ -1301,12 +1301,9 @@ iverilog blocking_caveat.v tb_blocking_caveat.v
 ./a.out
 gtkwave tb_blocking_caveat.vcd
 ```
+![89](https://github.com/user-attachments/assets/d5682c9b-4df1-4a8f-850b-d70796b12cbd)
 
-![Screenshot from 2024-10-20 15-57-26](https://github.com/user-attachments/assets/1c3acb0f-915f-4212-87db-6535cb8f8705)
-
-![Screenshot from 2024-10-20 16-02-54](https://github.com/user-attachments/assets/fbbf0035-d8e2-4935-9be4-d9adb49efe21)
-
-![Screenshot from 2024-10-20 16-02-47](https://github.com/user-attachments/assets/e3b2aa99-cd89-4a5c-b428-26d2f6880780)
+![90](https://github.com/user-attachments/assets/913a45ae-5364-4f1c-a850-028478d21303)
 
 As shown in the waveform, when both AA and BB go to zero, the output of the OR gate should also be zero (resulting in XX being zero), and the AND gate output should likewise be zero (matching the DD output). However, the input to the AND gate for XX retains the previous value of A∣BA∣B as one due to the use of blocking statements in the design, leading to this discrepancy in the output.
 ```
@@ -1344,16 +1341,14 @@ module blocking_caveat(a,b,c,d);
 endmodule
 ```
 
-![Screenshot from 2024-10-20 16-07-43](https://github.com/user-attachments/assets/14860dcb-b550-4679-8ebf-512dbff3820f)
+![91](https://github.com/user-attachments/assets/d9475120-e516-4280-9b4c-a21b58ee6190)
 ```
 iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v blocking_caveat.v tb_blocking_caveat.v
 ./a.out
 gtkwave tb_blocking_caveat.vcd
 ```
+![92](https://github.com/user-attachments/assets/be3f303d-8e73-47fe-b8f4-dc584b3aa43e)
 
-![Screenshot from 2024-10-20 16-04-20](https://github.com/user-attachments/assets/0a41a5f7-738c-448d-b88f-b548474cc14b)
-
-![Screenshot from 2024-10-20 16-05-32](https://github.com/user-attachments/assets/3e9cde6d-af32-4c44-aaa6-4bb96397c244)
 These waveforms correspond to the gate-level synthesis for the blocking caveat.
 
 </li>
