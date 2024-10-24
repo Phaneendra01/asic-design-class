@@ -52,8 +52,7 @@ Now let's Create a Graphical Representation
 ```
 show
 ```
-![Screenshot 2024-10-23 225930](https://github.com/user-attachments/assets/611443cb-d750-409e-88c9-3d6d1fc0053a)
-
+![Screenshot 2024-10-23 225930](https://github.com/user-attachments/assets/611443cb-d750-409e-88c9-3d6d1fc0053dfg
 
 To View the Netlist
 ```
@@ -61,7 +60,7 @@ write_verilog -noattr rvmyth.v
 !gvim rvmyth.v
 exit
 ```
-![new2](https://github.com/user-attachments/assets/06a186f0-9580-49cb-b226-8edd6b9fd454)
+![new2](https://github.com/user-attachments/assets/06a186f0-9580-49cb-b226-8edd6b9fd454
 
 
 
@@ -72,9 +71,9 @@ ls
 ./a.out
 gtkwave dump.vcd
 ```
-![Screenshot from 2024-10-23 20-09-56](https://github.com/user-attachments/assets/c6db6f2a-6a7b-4827-9416-fbabba5ea513)
+![Screenshot from 2024-10-23 20-09-56](https://github.com/user-attachments/assets/c6db6f2a-6a7b-4827-9416-fbabba5ea513
 
-![Untitled](https://github.com/user-attachments/assets/f471cd9f-fb86-4801-89b2-a7265eca0b47)
+![Untitled](https://github.com/user-attachments/assets/f471cd9f-fb86-4801-89b2-a7265eca0b47
 
 
 # Functional Simulations ( Previously done in TASK-9 )
@@ -87,13 +86,13 @@ iverilog -o ./pre_synth_sim.out -DPRE_SYNTH_SIM src/module/testbench.v -I src/in
 ./pre_synth_sim.out
 gtkwave pre_synth_sim.vcd
 ```
-![Screenshot from 2024-10-23 19-21-41](https://github.com/user-attachments/assets/990fa4dd-fb8b-4bab-8c92-3092bc7c2a24)
+![Screenshot from 2024-10-23 19-21-41](https://github.com/user-attachments/assets/990fa4dd-fb8b-4bab-8c92-3092bc7c2a24
 
 
 
 # COMPARISON of Functionality vs Synthesized output waveform 
 
-![Untitled0](https://github.com/user-attachments/assets/67a35d2e-75f0-4935-b47c-7f957c13485e)
+![Untitled0](https://github.com/user-attachments/assets/67a35d2e-75f0-4935-b47c-7f957c13485e
 
 ## CONCLUSION : The Functionality vs Synthesized output waveform matches.  
 
