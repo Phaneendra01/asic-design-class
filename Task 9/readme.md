@@ -1,7 +1,4 @@
 # TASK 11      
-( 22/10/2024 )
-
-<details>
        <summary> Synthesize RISC-V and compare output with functional simulations. </summary>
 
 ## AIM : To Synthesize RISC-V and compare output with functional simulations.  </summary>
@@ -99,12 +96,4 @@ gtkwave pre_synth_sim.vcd
 ![Untitled0](https://github.com/user-attachments/assets/67a35d2e-75f0-4935-b47c-7f957c13485e)
 
 ## CONCLUSION : The Functionality vs Synthesized output waveform matches.  
-
-
-
-
-
-
-
-</details>
 
