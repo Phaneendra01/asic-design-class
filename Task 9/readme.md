@@ -61,7 +61,9 @@ write_verilog -noattr rvmyth.v
 !gvim rvmyth.v
 exit
 ```
-![new2](https://github.com/user-attachments/assets/06a186f0-9580-49cb-b226-8edd6b9fd454
+![2](https://github.com/user-attachments/assets/a60b64c9-c656-41ff-92a7-ac4bdf6d2d35)
+![3](https://github.com/user-attachments/assets/f5771bfc-ad72-4c4a-8ae2-5b65463b867e)
+
 
 
 
