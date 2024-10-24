@@ -84,7 +84,7 @@ gtkwave post_synth_sim.vcd
 ----
 The simulation waveforms are:
 
-1. clk_gour,reset,VCO_IN & Output signals:
+1. clk_phan,reset,VCO_IN & Output signals:
 ![Screenshot from 2024-10-24 01-04-41](https://github.com/user-attachments/assets/44fea0ce-e9d8-4ea8-9bd2-6cfab6bf91a9)
 ![Screenshot from 2024-10-24 01-05-17](https://github.com/user-attachments/assets/7d6c3fd0-c1ce-48a3-93a5-c64909f994cb)
 -----
@@ -98,5 +98,5 @@ In the above waveforms, we can see the following signals:
 **The pre synthesis simulation waveforms and the post synthesis simulation waveforms were found to be identical.
 The pre synthesis simulation waveforms are shown here for reference:**
 
-![Screenshot from 2024-10-23 20-17-25](https://github.com/user-attachments/assets/5fd5a4be-aa0c-4dd9-99a0-5447c80cdc1d)
-![Screenshot from 2024-10-23 20-16-58](https://github.com/user-attachments/assets/9d626725-cdf8-44cb-b4c3-949748b8a21f)
+![a](https://github.com/user-attachments/assets/3d5b4a92-13fc-4969-8cd9-76846f6fff30)
+![b](https://github.com/user-attachments/assets/831c4e7e-e33e-42de-8c69-fa7061183813)
