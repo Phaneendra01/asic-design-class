@@ -40,7 +40,7 @@ Synthesize the Design
 ```
 synth -top rvmyth
 ```
-![new1](https://github.com/user-attachments/assets/270f0624-4c87-48d4-8d5f-bc126c16c323)
+![abc](https://github.com/user-attachments/assets/f5698e84-d7c4-4bea-9a06-eb9d3920ab6d)
 
 Now Generate the Netlist
 ```
