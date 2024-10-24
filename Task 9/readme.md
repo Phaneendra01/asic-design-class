@@ -86,7 +86,7 @@ The simulation waveforms are:
 
 1. clk_phan,reset,VCO_IN & Output signals:
 ![image](https://github.com/user-attachments/assets/18f48e0a-589f-4d17-9047-043950dd58a1)
-![Screenshot from 2024-10-24 01-05-17](https://github.com/user-attachments/assets/7d6c3fd0-c1ce-48a3-93a5-c64909f994cb)
+![image](https://github.com/user-attachments/assets/180e6074-055d-4be0-a889-4e6c69d677f8)
 -----
 In the above waveforms, we can see the following signals:
 
