@@ -52,7 +52,7 @@ Now let's Create a Graphical Representation
 ```
 show
 ```
-![Screenshot 2024-10-23 225930](https://github.com/user-attachments/assets/611443cb-d750-409e-88c9-3d6d1fc0053dfg
+![123](https://github.com/user-attachments/assets/3a9c22c4-fff5-4aad-a7d5-8ef6a39041bc)
 
 To View the Netlist
 ```
