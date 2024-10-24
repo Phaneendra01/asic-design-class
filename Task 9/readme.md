@@ -85,7 +85,7 @@ gtkwave post_synth_sim.vcd
 The simulation waveforms are:
 
 1. clk_phan,reset,VCO_IN & Output signals:
-![Screenshot from 2024-10-24 01-04-41](https://github.com/user-attachments/assets/44fea0ce-e9d8-4ea8-9bd2-6cfab6bf91a9)
+![image](https://github.com/user-attachments/assets/18f48e0a-589f-4d17-9047-043950dd58a1)
 ![Screenshot from 2024-10-24 01-05-17](https://github.com/user-attachments/assets/7d6c3fd0-c1ce-48a3-93a5-c64909f994cb)
 -----
 In the above waveforms, we can see the following signals:
