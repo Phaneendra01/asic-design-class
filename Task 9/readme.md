@@ -79,7 +79,7 @@ The result of the simulation (i.e. post_synth_sim.vcd) will be stored in the out
 ```
 gtkwave post_synth_sim.vcd
 ```
-![GLS](https://github.com/user-attachments/assets/bfc6e04a-a577-4eca-b1f3-bfd7f2020ed0)
+![pha](https://github.com/user-attachments/assets/472f0dc5-12f6-4eef-ab27-f2da3473c633)
 
 ----
 The simulation waveforms are:
