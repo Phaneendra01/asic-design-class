@@ -1,5 +1,5 @@
 # TASK 11      
-       <summary> Synthesize RISC-V and compare output with functional simulations. </summary>
+<summary> Synthesize RISC-V and compare output with functional simulations. </summary>
 
 ## AIM : To Synthesize RISC-V and compare output with functional simulations.  </summary>
 
