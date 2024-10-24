@@ -64,38 +64,39 @@ exit
 ![2](https://github.com/user-attachments/assets/a60b64c9-c656-41ff-92a7-ac4bdf6d2d35)
 ![3](https://github.com/user-attachments/assets/f5771bfc-ad72-4c4a-8ae2-5b65463b867e)
 
+## Post-synthesis simulation (GLS)
+--------
+For Post-synthesis simulation, we use the vsdbabysoc.v as the top module, which includes RISC-V, DAC and PLL as submodules and the testbench which we used for the pre synthsis simulation of the vsdbabysoc.
 
-
-
-Now let`s Observe the output waveform of synthesised RISC-V
+The commands for simulating the synthesized module of RISC-V are:
 ```
-iverilog ../../my_lib/verilog_model/primitives.v ../../my_lib/verilog_model/sky130_fd_sc_hd.v rvmyth.v testbench.v vsdbabysoc.v avsddac.v avsdpll.v clk_gate.v
-ls
-./a.out
-gtkwave dump.vcd
+cd ~/VSDBabySoC
+
+mkdir -p output/post_synth_sim && iverilog -o output/post_synth_sim/post_synth_sim.out -DPOST_SYNTH_SIM -DFUNCTIONAL -DUNIT_DELAY=#1 -I src/module/include -I src/module -I src/gls_model src/module/testbench.v && cd output/post_synth_sim && ./post_synth_sim.out
 ```
-![Screenshot from 2024-10-23 20-09-56](https://github.com/user-attachments/assets/c6db6f2a-6a7b-4827-9416-fbabba5ea513
 
-![Untitled](https://github.com/user-attachments/assets/f471cd9f-fb86-4801-89b2-a7265eca0b47
-
-
-# Functional Simulations ( Previously done in TASK-9 )
-
- ### Command Steps :
- ```
-cd ~
-cd VSDBabySoC
-iverilog -o ./pre_synth_sim.out -DPRE_SYNTH_SIM src/module/testbench.v -I src/include -I src/module/
-./pre_synth_sim.out
-gtkwave pre_synth_sim.vcd
+The result of the simulation (i.e. post_synth_sim.vcd) will be stored in the output/post_synth_sim directory and the waveform could be seen by the following command:
 ```
-![Screenshot from 2024-10-23 19-21-41](https://github.com/user-attachments/assets/990fa4dd-fb8b-4bab-8c92-3092bc7c2a24
+gtkwave post_synth_sim.vcd
+```
+![GLS](https://github.com/user-attachments/assets/bfc6e04a-a577-4eca-b1f3-bfd7f2020ed0)
 
+----
+The simulation waveforms are:
 
+1. clk_gour,reset,VCO_IN & Output signals:
+![Screenshot from 2024-10-24 01-04-41](https://github.com/user-attachments/assets/44fea0ce-e9d8-4ea8-9bd2-6cfab6bf91a9)
+![Screenshot from 2024-10-24 01-05-17](https://github.com/user-attachments/assets/7d6c3fd0-c1ce-48a3-93a5-c64909f994cb)
+-----
+In the above waveforms, we can see the following signals:
 
-# COMPARISON of Functionality vs Synthesized output waveform 
+**clk_phan:**     
+**reset:**     
+**RV_to_DAC[9:0]:** 
+**OUT:** 
 
-![Untitled0](https://github.com/user-attachments/assets/67a35d2e-75f0-4935-b47c-7f957c13485e
+**The pre synthesis simulation waveforms and the post synthesis simulation waveforms were found to be identical.
+The pre synthesis simulation waveforms are shown here for reference:**
 
-## CONCLUSION : The Functionality vs Synthesized output waveform matches.  
-
+![Screenshot from 2024-10-23 20-17-25](https://github.com/user-attachments/assets/5fd5a4be-aa0c-4dd9-99a0-5447c80cdc1d)
+![Screenshot from 2024-10-23 20-16-58](https://github.com/user-attachments/assets/9d626725-cdf8-44cb-b4c3-949748b8a21f)
