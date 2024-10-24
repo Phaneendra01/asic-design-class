@@ -10,14 +10,14 @@ Copy the src folder from your VSDBabySoC folder to your VLSI folder.
 Now copy the src folder into the sky130RTLDesignAndSynthesisWorkshop folder by giving the following command:
 ```
 sudo -i
-cd /home/chandra-shekhar-jha/VLSI/
+cd /home/Phaneendra/VLSI/
 cp -r src sky130RTLDesignAndSynthesisWorkshop/
 ```
 Now go the required Directory: 
 
 ```
 cd ~
-cd /home/chandra-shekhar-jha/VLSI/sky130RTLDesignAndSynthesisWorkshop/src/module
+cd /home/Phaneendra/VLSI/sky130RTLDesignAndSynthesisWorkshop/src/module
 ```
 
 # Synthesis: 
