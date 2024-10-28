@@ -85,7 +85,7 @@ cd /OpenSTA/app
 ./sta
 
 read_liberty /mnt/sky130_fd_sc_hd__tt_025C_1v80.lib
-read_verilog /mnt/vsdbabysoc.v  ; # Ensure this points to the correct netlist file
+read_verilog /mnt/vsdbabysoc.v # Ensure this points to the correct netlist file
 link_design rvmyth
 
 create_clock -name CLK -period 9.7 [get_ports CLK]
