@@ -52,7 +52,7 @@ report_wns -digits {4} >> /mnt/sta_output/sta_wns.txt
 ## SDC File ```vsdbabysoc_synthesis.sdc``` :
 
 ```
-set PERIOD 9.05
+set PERIOD 9.7
 set_units -time ns
 create_clock [get_pins {pll/CLK}] -name clk -period $PERIOD
 set_clock_uncertainty [expr 0.05 * $PERIOD] -setup [get_clocks clk]
