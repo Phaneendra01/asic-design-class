@@ -453,7 +453,7 @@ ls
 mv sky130A_inv.mag sky130A_phainv.mag
 
 # Command to open custom inverter layout in magic
-magic -T sky130A.tech sky130_inv.mag &
+magic -T sky130A.tech sky10_phainv.mag &
 ```
 
 Screenshot of commands run
