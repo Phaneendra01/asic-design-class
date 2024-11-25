@@ -622,7 +622,7 @@ make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk synth
 
 Synthesis netlist:
 
-![7](https://github.com/user-attachments/assets/7b4ec7cd-fcf7-42fe-890c-10d514bf7ce5)
+![image](https://github.com/user-attachments/assets/bfe2db01-7067-438c-ba5a-c28424a59cd7)
 
 Synthesis log:
 
