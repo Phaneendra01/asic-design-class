@@ -701,7 +701,7 @@ make gui_cts
 ```
 make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk route
 ```
-![24](https://github.com/user-attachments/assets/71a60c04-759f-4af1-8f1a-0477500c5fa1)
+![24](https://github.com/user-attachments/assets/d0eed390-d408-4f6a-b73a-ab01f2a79cbd)
 
 ```
 make gui_route
