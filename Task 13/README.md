@@ -584,13 +584,60 @@ make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk place
 ![22](https://github.com/user-attachments/assets/3b991a77-cdfa-4cd8-a439-0eb6fe24d092)
 
 ```
+make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk gui_place
+```
+![25](https://github.com/user-attachments/assets/0d6dcd05-1e8d-43a0-b077-4f16d6c1fcd5)
+
+![26](https://github.com/user-attachments/assets/47f85e81-f4e8-43d8-90f2-5aff44c5c610)
+
+![27](https://github.com/user-attachments/assets/eeb9b8b5-1d45-4869-8de2-075399851b6c)
+
+![28](https://github.com/user-attachments/assets/52d6b4ab-bb02-4e36-99f4-faab02d7f44e)
+
+```
 make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk cts
 ```
 ![23](https://github.com/user-attachments/assets/2fa3cad1-9c08-4a23-97df-75212fd31ade)
+
+```
+make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk gui_cts
+```
+![29](https://github.com/user-attachments/assets/61cf3e02-235b-4a4b-a721-869ea131207f)
+
+![30](https://github.com/user-attachments/assets/f5820417-8a1a-4f5e-b0f2-a91ad494ebd1)
 
 ```
 make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk route
 ```
 ![24](https://github.com/user-attachments/assets/71a60c04-759f-4af1-8f1a-0477500c5fa1)
 
+```
+make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk gui_route
+```
+![31](https://github.com/user-attachments/assets/9b9d1245-6741-4024-9b6f-548703a22a52)
 
+![32](https://github.com/user-attachments/assets/4a661949-53e6-4707-a754-e80670df05df)
+
+```
+make gui_final
+```
+![33](https://github.com/user-attachments/assets/917774d3-8bee-4ff3-af54-6736f46bb9e8)
+
+![34](https://github.com/user-attachments/assets/d02f48ae-c174-49fd-b932-9e8ddf63b303)
+
+![35](https://github.com/user-attachments/assets/18ccc25a-5d02-4906-a3d1-e61ecbd65bb0)
+
+![36](https://github.com/user-attachments/assets/86b1a470-2243-4331-a87b-08848092f3e7)
+
+![37](https://github.com/user-attachments/assets/a113b34e-3542-4cf6-bba7-5f3b58e558db)
+
+![38](https://github.com/user-attachments/assets/e7b74b51-e446-4698-bdaa-630b8ec16755)
+
+![39](https://github.com/user-attachments/assets/fc2f206e-d69c-49b9-9930-1c576506bed6)
+
+```
+ klayout -e -nn ./platforms/nangate45/FreePDK45.lyt -l ./platforms/nangate45/FreePDK45.lyp ./results/nangate45/gcd/base/6_final.gds
+```
+![40](https://github.com/user-attachments/assets/e887624e-f246-4b94-9ffe-852cce47c0b6)
+
+![41](https://github.com/user-attachments/assets/1cfda547-5976-4fa1-bde0-52dedc4ace9b)
