@@ -584,7 +584,7 @@ make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk place
 ![22](https://github.com/user-attachments/assets/3b991a77-cdfa-4cd8-a439-0eb6fe24d092)
 
 ```
-make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk gui_place
+make gui_place
 ```
 ![25](https://github.com/user-attachments/assets/0d6dcd05-1e8d-43a0-b077-4f16d6c1fcd5)
 
@@ -600,7 +600,7 @@ make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk cts
 ![23](https://github.com/user-attachments/assets/2fa3cad1-9c08-4a23-97df-75212fd31ade)
 
 ```
-make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk gui_cts
+make gui_cts
 ```
 ![29](https://github.com/user-attachments/assets/61cf3e02-235b-4a4b-a721-869ea131207f)
 
@@ -612,7 +612,7 @@ make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk route
 ![24](https://github.com/user-attachments/assets/71a60c04-759f-4af1-8f1a-0477500c5fa1)
 
 ```
-make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk gui_route
+make gui_route
 ```
 ![31](https://github.com/user-attachments/assets/9b9d1245-6741-4024-9b6f-548703a22a52)
 
