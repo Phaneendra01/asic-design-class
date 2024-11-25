@@ -436,7 +436,7 @@ BS-PDNs involve routing power supply rails on the backside of the chip, enabling
 
 By adopting BS-PDNs, semiconductor manufacturers can develop high-performance and energy-efficient integrated circuits that meet the demands of modern electronics.
 
-### MakeFile
+#### MakeFile
 
 ![Screenshot from 2024-11-26 03-39-24](https://github.com/user-attachments/assets/631b7308-3899-4893-b85e-92a6fbf6416c)
 ![Screenshot from 2024-11-26 03-39-29](https://github.com/user-attachments/assets/a42a59d4-6e1f-4e1c-bb9e-6e7e1cd40a37)
@@ -448,6 +448,86 @@ By adopting BS-PDNs, semiconductor manufacturers can develop high-performance an
 ![Screenshot from 2024-11-26 03-40-04](https://github.com/user-attachments/assets/22e80ea2-7391-44ee-8023-5caba4fa7174)
 ![Screenshot from 2024-11-26 03-40-10](https://github.com/user-attachments/assets/bf329c4b-961a-41fa-9c38-fd645949851b)
 
+#### config.mk file
+
+```
+export DESIGN_NICKNAME = vsdbabysoc
+export DESIGN_NAME = vsdbabysoc
+export PLATFORM    = sky130hd
+
+# export VERILOG_FILES_BLACKBOX = $(DESIGN_HOME)/src/$(DESIGN_NICKNAME)/IPs/*.v
+# export VERILOG_FILES = $(sort $(wildcard $(DESIGN_HOME)/src/$(DESIGN_NICKNAME)/*.v))
+# Explicitly list the Verilog files for synthesis
+export VERILOG_FILES = /home/phaneendra/OpenRoad/flow/designs/sky130hd/vsdbabysoc/src/vsdbabysoc.v \
+                       /home/phaneendra/OpenRoad/flow/designs/sky130hd/vsdbabysoc/src/module/rvmyth.v \
+                       /home/phaneendra/OpenRoad/flow/designs/sky130hd/vsdbabysoc/src/clk_gate.v
+
+export SDC_FILE      = /home/phaneendra/OpenRoad/flow/designs/sky130hd/vsdbabysoc/src/sdc/vsdbabysoc_synthesis.sdc
+
+#export DIE_AREA   = 0 0 1500 1500
+# export CORE_AREA  = 10 10 2910 3510
+
+# export PLACE_DENSITY ?= 0.23
+
+export vsdbabysoc_DIR = /home/phaneendra/OpenRoad/flow/designs/sky130hd/vsdbabysoc
+
+export VERILOG_INCLUDE_DIRS = /home/phaneendra/OpenRoad/flow/designs/sky130hd/vsdbabysoc/src/include
+
+# export SDC_FILE      = $(wildcard $(vsdbabysoc_DIR)/sdc/*.sdc)
+export ADDITIONAL_GDS  =/home/phaneendra/OpenRoad/flow/designs/sky130hd/vsdbabysoc/src/gds
+export ADDITIONAL_LEFS  = /home/phaneendra/OpenRoad/flow/designs/sky130hd/vsdbabysoc/src/lef
+
+export ADDITIONAL_LIBS = /home/phaneendra/OpenRoad/flow/designs/sky130hd/vsdbabysoc/src/lib/avsddac.lib \
+				         /home/phaneendra/OpenRoad/flow/designs/sky130hd/vsdbabysoc/src/lib/avsdpll.lib
+# Clock Configuration (vsdbabysoc specific)
+# export CLOCK_PERIOD = 20.0
+export CLOCK_PORT = CLK
+export CLOCK_NET = $(CLOCK_PORT)
+
+# Floorplanning Configuration (vsdbabysoc specific)
+export FP_PIN_ORDER_CFG = /home/phaneendra/OpenRoad/flow/designs/sky130hd/vsdbabysoc/pin_order.cfg
+export FP_SIZING = absolute
+export DIE_AREA = 0 0 2000 2000
+export CORE_AREA = 10 10 1800 1800
+
+
+# export PL_RESIZER_HOLD_MAX_BUFFER_PERCENT = 80
+# export PL_RESIZER_HOLD_MAX_BUFFER_COUNT = 5000  # Set the buffer limit to a higher value if needed
+# export GLB_RESIZER_HOLD_MAX_BUFFER_PERCENT = 80
+
+# Hold Slack Margin Configuration
+# export PL_RESIZER_HOLD_SLACK_MARGIN = 0.01
+# export GLB_RESIZER_HOLD_SLACK_MARGIN = 0.01
+
+
+export BOTTOM_MARGIN_MULT = 50
+export TOP_MARGIN_MULT = 50
+export LEFT_MARGIN_MULT = 200
+export RIGHT_MARGIN_MULT = 200
+
+# Placement Configuration (vsdbabysoc specific)
+export MACRO_PLACEMENT_CFG = /home/phaneendra/OpenRoad/flow/designs/sky130hd/vsdbabysoc/macro.cfg
+
+# Magic Tool Configuration
+export MAGIC_ZEROIZE_ORIGIN = 0
+export MAGIC_EXT_USE_GDS = 1
+
+export SYNTH_HIERARCHICAL = 1
+
+# export RTLMP_BOUNDARY_WT = 0
+#  MACRO_PLACE_HALO = 100 100
+# export MACRO_PLACE_CHANNEL = 200 200
+
+# CTS tuning
+# export CTS_BUF_DISTANCE = 600
+# export SKIP_GATE_CLONING = 1
+
+# export SETUP_SLACK_MARGIN = 0.2
+
+# This is high, some SRAMs should probably be converted
+# to real SRAMs and not instantiated as flops
+# export SYNTH_MEMORY_MAX_BITS ?= 42000
+```
 
 **Installing and setting up ORFS**
 
