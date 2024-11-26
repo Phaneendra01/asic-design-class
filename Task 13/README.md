@@ -668,6 +668,23 @@ make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk gui_floorplan
 
 ![19](https://github.com/user-attachments/assets/35ae4088-a83c-48ee-868a-d5f0ee85a819)
 
+### Heat Maps
+
+#### Place
+![Screenshot from 2024-11-26 06-15-31](https://github.com/user-attachments/assets/35fb5035-972d-48df-b92e-d5e60385ec30)
+
+#### Power
+![Screenshot from 2024-11-26 06-15-38](https://github.com/user-attachments/assets/3e7e4ec3-e597-47a0-8407-e7ff33f71c36)
+
+#### Routing
+![Screenshot from 2024-11-26 06-17-03](https://github.com/user-attachments/assets/0b04cb33-3a1c-4091-9b04-bc367dd556ee)
+
+#### Estimation 
+![Screenshot from 2024-11-26 06-17-06](https://github.com/user-attachments/assets/79deec35-d7ce-48f9-9093-a9cb165168bd)
+
+#### IR Drop
+![Screenshot from 2024-11-26 06-17-14](https://github.com/user-attachments/assets/95c50cc2-57c3-4eb1-9f1a-e19cebb358e4)
+
 ```
 make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk place
 ```
@@ -692,6 +709,23 @@ make gui_place
 
 ![Screenshot from 2024-11-26 06-03-20](https://github.com/user-attachments/assets/1c9a7c88-74dc-4a52-8d8a-9cc06d03e8ab)
 
+### Heat Maps
+
+#### Place
+![image](https://github.com/user-attachments/assets/bc54ff44-b7d6-4b4c-a146-a7e7eae23f04)
+
+#### Power
+![image](https://github.com/user-attachments/assets/fcc7a124-365b-4c95-8da2-6fd40ecac891)
+
+#### Routing
+![image](https://github.com/user-attachments/assets/616f4779-3217-41c1-8ace-157d5c05797b)
+
+#### Estimation 
+![image](https://github.com/user-attachments/assets/a9671c8d-e40d-48c5-bd3a-fcf8d21bf223)
+
+#### IR Drop
+![image](https://github.com/user-attachments/assets/856c2334-5e8f-4c5b-bdc1-dce460d0762c)
+
 ```
 make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk cts
 ```
@@ -712,6 +746,24 @@ make gui_cts
 make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk route
 ```
 ![24](https://github.com/user-attachments/assets/d0eed390-d408-4f6a-b73a-ab01f2a79cbd)
+
+
+### Heat Maps
+
+#### Place
+![image](https://github.com/user-attachments/assets/71b640c5-6712-47c5-b0e0-58fdb7146d16)
+
+#### Power
+![image](https://github.com/user-attachments/assets/c6d3ad07-cea0-461a-b29f-cdcc5c14e6f8)
+
+#### Routing
+![image](https://github.com/user-attachments/assets/ad5b44a1-97e4-4deb-8622-6b474bc97b20)
+
+#### Estimation 
+![image](https://github.com/user-attachments/assets/5ba704fe-31e3-48eb-93d9-a7ad12e97f1b)
+
+#### IR Drop
+![image](https://github.com/user-attachments/assets/136b2241-f76b-4d10-baa5-e5a2d90c39ce)
 
 ```
 make gui_route
