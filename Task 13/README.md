@@ -703,8 +703,6 @@ make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk place
 ```
 make gui_place
 ```
-![25](https://github.com/user-attachments/assets/0d6dcd05-1e8d-43a0-b077-4f16d6c1fcd5)
-
 ![26](https://github.com/user-attachments/assets/47f85e81-f4e8-43d8-90f2-5aff44c5c610)
 
 ![27](https://github.com/user-attachments/assets/eeb9b8b5-1d45-4869-8de2-075399851b6c)
