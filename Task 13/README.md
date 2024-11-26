@@ -685,6 +685,12 @@ make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk gui_floorplan
 #### IR Drop
 ![Screenshot from 2024-11-26 06-17-14](https://github.com/user-attachments/assets/95c50cc2-57c3-4eb1-9f1a-e19cebb358e4)
 
+### Report generated after floorplan
+
+![Screenshot from 2024-11-26 07-22-54](https://github.com/user-attachments/assets/5196e061-30fc-456f-882a-114510b871d4)
+
+![Screenshot from 2024-11-26 07-23-03](https://github.com/user-attachments/assets/f8e9b54d-5379-4f1e-8a29-5292ab8d566d)
+
 ```
 make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk place
 ```
@@ -726,6 +732,14 @@ make gui_place
 #### IR Drop
 ![image](https://github.com/user-attachments/assets/856c2334-5e8f-4c5b-bdc1-dce460d0762c)
 
+### Report generated after placement
+
+![Screenshot from 2024-11-26 07-23-11](https://github.com/user-attachments/assets/8e6f75ed-ced2-4757-a8a1-582263a6e8ec)
+
+![Screenshot from 2024-11-26 07-23-36](https://github.com/user-attachments/assets/0683f66f-a8d8-4434-95ba-6797ab5843d7)
+
+![Screenshot from 2024-11-26 07-23-56](https://github.com/user-attachments/assets/37d2c868-4e4e-4fb6-be09-63825a0f3241)
+
 ```
 make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk cts
 ```
@@ -747,7 +761,6 @@ make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk route
 ```
 ![24](https://github.com/user-attachments/assets/d0eed390-d408-4f6a-b73a-ab01f2a79cbd)
 
-
 ### Heat Maps
 
 #### Place
@@ -764,6 +777,16 @@ make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk route
 
 #### IR Drop
 ![image](https://github.com/user-attachments/assets/136b2241-f76b-4d10-baa5-e5a2d90c39ce)
+
+### Report generated after cts
+
+![Screenshot from 2024-11-26 07-24-05](https://github.com/user-attachments/assets/f59b2fa2-5efb-45f4-b14a-f06b8f301cd0)
+
+![Screenshot from 2024-11-26 07-24-09](https://github.com/user-attachments/assets/e5d3464f-b0af-4dbf-90a5-baa6e34b143b)
+
+![Screenshot from 2024-11-26 07-24-18](https://github.com/user-attachments/assets/8623d1ae-f2b0-4dbb-8b4f-4352b8c925f2)
+
+![Screenshot from 2024-11-26 07-24-35](https://github.com/user-attachments/assets/322e2e0b-5574-4b8d-a91c-acbdde0109f8)
 
 ```
 make gui_route
