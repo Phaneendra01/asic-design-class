@@ -816,3 +816,8 @@ make gui_final
 ![40](https://github.com/user-attachments/assets/e887624e-f246-4b94-9ffe-852cce47c0b6)
 
 ![41](https://github.com/user-attachments/assets/1cfda547-5976-4fa1-bde0-52dedc4ace9b)
+
+#### QOR Report
+
+![image](https://github.com/user-attachments/assets/dee34752-65b0-4097-aea0-6a19f928e147)
+
